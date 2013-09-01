@@ -80,6 +80,12 @@
       line: {
         lineWidth: 3,
         marker: markers.pastel
+      },
+      bar: {
+        pointWidth: 1
+      },
+      column: {
+        pointWidth: 1
       }
     }
   };
@@ -89,6 +95,12 @@
     plotOptions: {
       line: {
         marker: markers.steel
+      },
+      bar: {
+        pointWidth: 1
+      },
+      column: {
+        pointWidth: 1
       }
     }
   };
@@ -98,6 +110,12 @@
     plotOptions: {
       line: {
         marker: markers.future
+      },
+      bar: {
+        pointWidth: 1
+      },
+      column: {
+        pointWidth: 1
       }
     }
   };

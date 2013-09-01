@@ -57,7 +57,7 @@ module.exports = (grunt) ->
         watch:
             scripts:
                 files: "src/*.coffee"
-                tasks: ['coffee']
+                tasks: ['coffee', 'uglify', 'copy']
 
     grunt.loadNpmTasks("grunt-contrib-concat")
     grunt.loadNpmTasks("grunt-contrib-jshint")

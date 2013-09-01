@@ -66,18 +66,30 @@ themes.pastel =
         line:
             lineWidth: 3
             marker: markers.pastel
+        bar:
+            pointWidth: 1
+        column:
+            pointWidth: 1
 
 themes.steel =
     colors: colorSchemes.steel
     plotOptions:
         line:
             marker: markers.steel
+        bar:
+            pointWidth: 1
+        column:
+            pointWidth: 1
 
 themes.future =
     colors: colorSchemes.future
     plotOptions:
         line:
             marker: markers.future
+        bar:
+            pointWidth: 1
+        column:
+            pointWidth: 1
 
 
 themes._defaults =

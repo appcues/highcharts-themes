@@ -4,7 +4,7 @@ Highcharts Themes Demo
 More Styles
 -----------
 
-- [ ] [Chartbeat styles](http://dribbble.com/mattbango/projects/8517-Chartbeat)
+- [x] [Chartbeat styles](http://dribbble.com/mattbango/projects/8517-Chartbeat)
 - [ ] [Tiny bar style](http://dribbble.com/shots/727342-Stream/attachments/69130)
 - [ ] [Donut chart styles](http://dribbble.com/shots/861173-Stats-Dashboard/attachments/91597)
 - [ ] [Fancy point markers](http://dribbble.com/shots/316510-HOM-research2?list=searches&tag=charts)

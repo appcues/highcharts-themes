@@ -1,5 +1,5 @@
-highcharts-themes
-=================
+Themes for Highcharts
+=====================
 
 Super slick themes for Highcharts
 

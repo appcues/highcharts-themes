@@ -47,6 +47,13 @@ module.exports = (grunt) ->
                 dest: 'dist'
                 ext: '.js'
 
+        copy:
+            main:
+                expand: true
+                flatten: true
+                src: 'dist/*'
+                dest: 'demo/js/'
+
         watch:
             scripts:
                 files: "src/*.coffee"
@@ -56,8 +63,9 @@ module.exports = (grunt) ->
     grunt.loadNpmTasks("grunt-contrib-jshint")
     grunt.loadNpmTasks("grunt-contrib-uglify")
     grunt.loadNpmTasks("grunt-contrib-coffee")
+    grunt.loadNpmTasks('grunt-contrib-copy')
     grunt.loadNpmTasks("grunt-contrib-watch")
 
     grunt.registerTask("default", ["jshint", "uglify"])
-    grunt.registerTask("build", ['coffee', "jshint", "uglify"])
+    grunt.registerTask("build", ['coffee', "jshint", "uglify", 'copy'])
     grunt.registerTask("travis", ["jshint"])

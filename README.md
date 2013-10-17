@@ -1,7 +1,5 @@
-Themes for Highcharts
+Themes for Highcharts [![Build Status](https://travis-ci.org/appcues/highcharts-themes.png?branch=master)](https://travis-ci.org/appcues/highcharts-themes)
 =====================
-
-[![Build Status](https://travis-ci.org/appcues/highcharts-themes.png?branch=master)](https://travis-ci.org/appcues/highcharts-themes)
 
 Super slick themes for Highcharts
 

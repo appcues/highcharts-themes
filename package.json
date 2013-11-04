@@ -21,6 +21,7 @@
     "scripts": {
         "test": "grunt travis --verbose"
     },
+    "main": "dist/highcharts-themes.js",
     "repository": {
         "type": "git",
         "url": "git://github.com/appcues/highcharts-themes.git"

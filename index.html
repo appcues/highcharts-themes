@@ -98,7 +98,8 @@
                         theme = $el.data('theme'),
                         chartType = $el.data('chart-type');
                     if (theme != null) {
-                        $el.highcharts($.extend(true, {chart: {type: chartType}}, window.SAMPLE_DATA, Highcharts.themes[theme]));
+                        var data = $.extend({}, window.SAMPLE_DATA.base, window.SAMPLE_DATA[chartType] || {});
+                        $el.highcharts($.extend(true, {chart: {type: chartType}}, data, Highcharts.themes[theme]));
                     }
                 });
             });

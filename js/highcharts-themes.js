@@ -106,7 +106,7 @@
         pointWidth: 1
       },
       scatter: {
-        marker: markers.pastel
+        marker: markers.steel
       }
     }
   };
@@ -124,7 +124,7 @@
         pointWidth: 1
       },
       scatter: {
-        marker: markers.pastel
+        marker: markers.future
       }
     }
   };

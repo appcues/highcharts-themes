@@ -86,6 +86,9 @@
       },
       column: {
         pointWidth: 1
+      },
+      scatter: {
+        marker: markers.pastel
       }
     }
   };
@@ -101,6 +104,9 @@
       },
       column: {
         pointWidth: 1
+      },
+      scatter: {
+        marker: markers.pastel
       }
     }
   };
@@ -116,6 +122,9 @@
       },
       column: {
         pointWidth: 1
+      },
+      scatter: {
+        marker: markers.pastel
       }
     }
   };

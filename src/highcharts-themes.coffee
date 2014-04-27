@@ -115,7 +115,7 @@ for name, theme of themes
 
 $.fn[namespace] = Highcharts.themes = themes
 Highcharts.setTheme = (themeName) ->
-    if t = Highcharts[themeName]?
+    if t = Highcharts.themes[themeName]?
         Highcharts.setOptions(t)
     else
         console.warn "Found no such theme."

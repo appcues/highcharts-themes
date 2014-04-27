@@ -152,8 +152,8 @@
   $.fn[namespace] = Highcharts.themes = themes;
 
   Highcharts.setTheme = function(themeName) {
-    var t;
-    if (t = Highcharts.themes[themeName] != null) {
+    var t = Highcharts.themes[themeName];
+    if (t != null) {
       return Highcharts.setOptions(t);
     } else {
       return console.warn("Found no such theme.");

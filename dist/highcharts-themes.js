@@ -153,7 +153,7 @@
 
   Highcharts.setTheme = function(themeName) {
     var t;
-    if (t = Highcharts.themes[themeName] != null) {
+    if ((t = Highcharts.themes[themeName]) != null) {
       return Highcharts.setOptions(t);
     } else {
       return console.warn("Found no such theme.");
